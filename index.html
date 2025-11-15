@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrstore - Top Up Diamond ML & FF</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: white; line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        header { background: rgba(0, 0, 0, 0.9); padding: 1rem 0; position: fixed; width: 100%; top: 0; }
+        .logo { font-size: 1.8rem; font-weight: bold; color: #ff6b35; text-align: center; }
+        .logo span { color: #00ffff; }
+        .hero { padding: 120px 0 80px; text-align: center; background: rgba(0, 0, 0, 0.7); }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; color: #ff6b35; }
+        .cta-button { display: inline-block; padding: 12px 30px; background: #ff6b35; color: white; text-decoration: none; border-radius: 25px; margin: 10px; }
+        .products { padding: 80px 0; }
+        .section-title { text-align: center; font-size: 2rem; margin-bottom: 2rem; color: #00ffff; }
+        .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; }
+        .product-card { background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 15px; text-align: center; }
+        .product-price { font-size: 1.3rem; color: #ff6b35; margin: 10px 0; }
+        .order-button { padding: 8px 20px; background: #00ffff; color: #000; border: none; border-radius: 10px; cursor: pointer; }
+        .contact { padding: 50px 0; text-align: center; background: rgba(0,0,0,0.5); }
+        .contact-methods { display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div class="logo">Ferr<span>store</span></div>
+    </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h1>TOP UP DIAMOND MUDAH & CEPAT</h1>
+            <p>Mobile Legends & Free Fire - Harga Terbaik</p>
+            <p>⚡ Proses Instant • 24 Jam • Aman Terpercaya</p>
+            <a href="#products" class="cta-button">LIHAT HARGA</a>
+            <a href="#contact" class="cta-button">HUBUNGI KAMI</a>
+        </div>
+    </section>
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">MOBILE LEGENDS</h2>
+            <div class="products-grid">
+                <div class="product-card"><h3>Weekly Pass 1x</h3><div class="product-price">Rp 28.000</div><button class="order-button" onclick="contactWA()">ORDER</button></div>
+                <div class="product-card"><h3>Weekly Pass 2x</h3><div class="product-price">Rp 55,500</div><button class="order-button" onclick="contactWA()">ORDER</button></div>
+                   <div class="product-card"><h3>Weekly Pass 3x</h3><div class="product-price">Rp 83.500</div><button class="order-button" onclick="contactWA()">ORDER</button></div>
+        <div class="product-card"><h3>Weekly Pass 4x</h3><div class="product-price">Rp 111.699</div><button class="order-button" onclick="contactWA()">ORDER</button></div>
+<div class="product-card"><h3>10 Diamond</h3><div class="product-price">Rp 3.299</div><button class="order-button" onclick="contactWA()">ORDER</button></div>
+                <div class="product-card"><h3>100 Diamond</h3><div class="product-price">Rp 26.500</div><button class="order-button" onclick="contactWA()">ORDER</button></div>
+                <div class="product-card"><h3>500 Diamond</h3><div class="product-price">Rp 128.200</div><button class="order-button" onclick="contactWA()">ORDER</button></div>
+            </div>
+            <h2 class="section-title" style="margin-top:50px">FREE FIRE</h2>
+            <div class="products-grid">
+                <div class="product-card"><h3>100 Diamond</h3><div class="product-price">Rp 13.000</div><button class="order-button" onclick="contactWA()">ORDER</button></div>
+                <div class="product-card"><h3>500 Diamond</h3><div class="product-price">Rp 57.000</div><button class="order-button" onclick="contactWA()">ORDER</button></div>
+                <div class="product-card"><h3>Mystery Box</h3><div class="product-price">Rp 73.000</div><button class="order-button" onclick="contactWA()">ORDER</button></div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">HUBUNGI KAMI</h2>
+            <div class="contact-methods">
+                <div><h3>📱 WhatsApp</h3><p>+6283119038938</p><button class="order-button" onclick="contactWA()">Chat Sekarang</button></div>
+                <div><h3>📸 Instagram</h3><p>@ferrstore_25</p><button class="order-button" onclick="contactIG()">Follow</button></div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function contactWA() { 
+            window.open('https://wa.me/6283119038938', '_blank'); 
+        }
+        function contactIG() { 
+            window.open('https://instagram.com/ferrstore_25', '_blank'); 
+        }
+    </script>
+</body>
+</html>
